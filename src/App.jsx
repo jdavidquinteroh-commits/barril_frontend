@@ -27,22 +27,48 @@ function App() {
 
       <section id="menu" style={{ padding: "4rem 3rem", backgroundColor: "#111" }}>
         <h2 style={{ color: "#FF6B00", textAlign: "center", fontSize: "2rem", marginBottom: "3rem" }}>Nuestros Servicios</h2>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem", maxWidth: "1000px", margin: "0 auto" }}>
+        <div style={{ backgroundColor: "#1a0a00", border: "1px solid #FF6B00", borderRadius: "12px", padding: "2rem", textAlign: "center" }}>
+          </div>
           <div style={{ backgroundColor: "#1a0a00", border: "1px solid #FF6B00", borderRadius: "12px", padding: "2rem", textAlign: "center" }}>
             <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🔥</div>
             <h3 style={{ color: "#FF6B00" }}>Asado al Barril</h3>
-            <p style={{ color: "#ccc", lineHeight: "1.7" }}>Bondiola, costillas, punta de anca, chicharron y mas. Cocinados lentamente para lograr el sabor perfecto.</p>
+            <p style={{ color: "#ccc", lineHeight: "1.7" }}>100g de bondiola, chicharron y costillas, con acompañantes incluidos, Cocinados lentamente para lograr el sabor perfecto.</p>
+            <p style={{ color: "#FF6B00", fontSize: "1.8rem", fontWeight: "bold", marginTop: "1rem" }}>$45.000</p>
+            <p style={{ color: "#888", fontSize: "0.9rem" }}>por persona</p>
           </div>
           <div style={{ backgroundColor: "#1a0a00", border: "1px solid #FF6B00", borderRadius: "12px", padding: "2rem", textAlign: "center" }}>
             <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🌮</div>
             <h3 style={{ color: "#FF6B00" }}>Tacos de Birria</h3>
-            <p style={{ color: "#ccc", lineHeight: "1.7" }}>Tacos tradicionales de birria con carne marinada de res, tortillas artesanales y consome para acompanar.</p>
+            <p style={{ color: "#ccc", lineHeight: "1.7" }}>Tacos tradicionales de birria con carne marinada de res, guacamole, pico de gallo y piña.</p>
+            <p style={{ color: "#FF6B00", fontSize: "1.8rem", fontWeight: "bold", marginTop: "1rem" }}>$35.000</p>
+            <p style={{ color: "#888", fontSize: "0.9rem" }}>por persona</p>
           </div>
           <div style={{ backgroundColor: "#1a0a00", border: "1px solid #FF6B00", borderRadius: "12px", padding: "2rem", textAlign: "center" }}>
             <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🎉</div>
             <h3 style={{ color: "#FF6B00" }}>Eventos y Domicilios</h3>
             <p style={{ color: "#ccc", lineHeight: "1.7" }}>Llevamos el asado a tu casa, empresa o evento. Cotiza sin compromiso para El Retiro y alrededores.</p>
+            <p style={{ color: "#888", fontSize: "0.9rem" }}>por evento</p>
           </div>
+          <div style={{ backgroundColor: "#1a0a00", border: "1px solid #FF6B00", borderRadius: "12px", padding: "2rem", textAlign: "center" }}>
+           <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>Chicharron</div>
+            <h3 style={{ color: "#FF6B00" }}>Chicharron Ahumado</h3>
+            <p style={{ color: "#ccc", lineHeight: "1.7" }}>300g de chicharron con acompañantes incluidos. Cocinado lentamente para lograr el sabor perfecto.</p>
+            <p style={{ color: "#FF6B00", fontSize: "1.8rem", fontWeight: "bold", marginTop: "1rem" }}>$25.000</p>
+            <p style={{ color: "#888", fontSize: "0.9rem" }}>por persona</p>
+        </div>
+            <div style={{ backgroundColor: "#1a0a00", border: "1px solid #FF6B00", borderRadius: "12px", padding: "2rem", textAlign: "center" }}>
+            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>Chorizo</div>
+            <h3 style={{ color: "#FF6B00" }}>Chorizo Artesanal</h3>
+            <p style={{ color: "#ccc", lineHeight: "1.7" }}>Chorizo artesanal con acompañantes incluidos. Cocinado lentamente para lograr el sabor perfecto.</p>
+            <p style={{ color: "#FF6B00", fontSize: "1.8rem", fontWeight: "bold", marginTop: "1rem" }}>$15.000</p>
+            <p style={{ color: "#888", fontSize: "0.9rem" }}>por persona</p>
+        </div> 
+           <div style={{ backgroundColor: "#1a0a00", border: "1px solid #FF6B00", borderRadius: "12px", padding: "2rem", textAlign: "center" }}>
+           <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>Picada</div>
+           <h3 style={{ color: "#FF6B00" }}>Picada para Dos</h3>
+           <p style={{ color: "#ccc", lineHeight: "1.7" }}>200g de chicharron, bondiola y 3 costillas, con acompañantes incluidos. Cocinados lentamente para lograr el sabor perfecto.</p>
+           <p style={{ color: "#FF6B00", fontSize: "1.8rem", fontWeight: "bold", marginTop: "1rem" }}>$70.000</p>
+           <p style={{ color: "#888", fontSize: "0.9rem" }}>para 2 personas</p>
         </div>
       </section>
 
